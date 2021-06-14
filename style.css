@@ -1,0 +1,951 @@
+/* 스타일 초기화 */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+a { padding: 0; border: 0; margin: 0; text-decoration: none; vertical-align: baseline;}
+li { list-style: none;}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.clerfix::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+/* 헤더 */
+#header { 
+    width: 100%;
+    height: 62px;
+    padding: 20px 0;
+    position: absolute;
+    z-index: 999;
+    background-color: #3C5A36;
+    position: fixed;
+}
+
+#header nav {
+    position: relative;
+}
+
+#header .logo {
+    position: absolute;
+    top: 0; left: 0;
+    margin-left: 60px;
+}
+
+#header .nav_main {
+    position: absolute;
+    top: 0; right: 0;
+    margin-right: 40px;
+}
+
+#header .nav_main li {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 16px 30px;
+}
+
+#header .nav_main a {
+    color: white;
+}
+
+/* drop-down 메뉴
+#drop-down {
+    padding: 20px 795px;
+    padding-bottom: 40px;
+    position: absolute;
+    position: fixed;
+    width: 1783px;
+    height: 100px;
+    z-index: 999;
+    background-color: white;
+    top: 100px;
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#drop-down a {
+    display: inline-block;
+    padding-top: 12px;
+    color: #3C5A36;
+}
+*/
+
+/* 위로가기 버튼 */
+.up {
+    position: absolute;
+    bottom: 50px; left: 92%;
+    position: fixed;
+    z-index: 9999;
+}
+
+/* mainpage */
+.background1 {
+    width: 100%;
+    height: 5793px;
+    background-image: url(img/mainpage/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.readmore {
+    position: absolute;
+    top: 730px;
+    left: 58%;
+}
+
+#banner{
+    position: absolute; 
+    top: 390px; 
+    left: 58%;
+}
+
+.mainpage_button1 {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 3064px;
+}
+
+
+.mainpage_button2 {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 5450px;
+}
+
+footer {
+    width: 100%;
+    height: 202px;
+    background-image: url(img/footer/footer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* about-us page */
+.background2 {
+    width: 100%;
+    height: 6290px;
+    background-image: url(img/brand/background2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.footer2 {
+    width: 100%;
+    height: 202px;
+    background-image: url(img/footer/footer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* '나만의 에르더마' page */
+.background3 {
+    width: 100%;
+    height: 4322px;
+    background-image: url(img/myown/background3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.myown_button1 {
+    position: absolute;
+    top: 2294px;
+    left: 20.2%;
+}
+
+.myown_button2 {
+    position: absolute;
+    top: 2862px;
+    left: 69.1%;
+}
+
+.myown_button3 {
+    position: absolute;
+    top: 3962px;
+    left: 19.8%;
+}
+
+.footer3 {
+    width: 100%;
+    height: 202px;
+    background-image: url(img/footer/footer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* drop the oil page */
+.background4 {
+    width: 100%;
+    height: 1080px;
+    background-image: url(img/dropthe/background4.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.dropthe_button1 {
+    position: absolute;
+    top: 770px;
+    left: 50%;
+    margin-left: -146px;
+}
+
+.footer4 {
+   width: 100%;
+    height: 202px;
+    background-image: url(img/footer/footer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* find your beauty page */
+.background5 {
+    width: 100%;
+    height: 5304px;
+    background-image: url(img/findyour/background5.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.findyour_button1 {
+    position: absolute;
+    top: 770px;
+    left: 50%;
+    margin-left: -146px;
+}
+
+.findyour_button2 {
+    position: absolute;
+    top: 5100px;
+    left: 50%;
+    margin-left: -188.5px;
+
+}
+
+#video{
+    width: 70%;
+    position: absolute; 
+    top: 3640px; 
+    left: 15.3%;
+}
+
+.scroll-down {
+    position: absolute;
+    top: 865px;
+    left: 50%;
+    z-index: 99;
+    width: 100px;
+    margin-left: -50px;
+    height: 100px;
+}
+
+.footer5 {
+    width: 100%;
+    height: 202px;
+    background-image: url(img/footer/footer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* product page */
+.background6 {
+    width: 100%;
+    height: 3395px;
+    background-image: url(img/product/background6.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+.background6 ul {
+    width: 1205px;
+    height: 420px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#bokhab{
+    top: 1575px;
+
+}
+
+#dry{
+    top: 1770px;
+}
+
+#oilskin{
+    top: 1953px;
+}
+
+.background6 li {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.footer6 {
+    width: 100%;
+    height: 202px;
+    background-image: url(img/footer/footer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* oil page */
+.oil-1 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.oil-2 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.oil-3 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.oil-4 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-4.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.oil-5 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-5.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.oil-6 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-6.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.oil-7 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-7.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.oil-8 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-8.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.oil-9 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-9.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.oil-10 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-10.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.oil-11 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-11.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.oil-12 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-12.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.footer7 {
+    width: 100%;
+    height: 202px;
+    background-image: url(img/footer/footer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+@media screen and (max-width : 600px){
+    
+    #header { 
+        width: 100%;
+        height: 32px;
+        padding: 20px 0;
+        position: absolute;
+        z-index: 999;
+        background-color: #3C5A36;
+        position: fixed;
+    }
+
+    #header nav {
+        position: relative;
+    }
+    
+    #header .logo {
+        width: 22%;
+        position: absolute;
+        top: 0; left: 0;
+        margin-left: 5.4%;
+        margin-top: 2.5px;
+    }
+    
+    #header .nav_main {
+        width: 60%;
+        height: 30px;
+        position: absolute;
+        top: 0; right: 2%;
+        margin-right: 0;
+    }
+    
+    #header .nav_main li {
+        display: inline-block;
+        font-size: 0.5em;
+        font-weight: 400;
+        margin: 6px 4%;
+    }
+    
+    #header .nav_main a {
+        color: white;
+    }
+
+
+    
+    /* 위로가기 버튼 */
+    .up {
+        width: 14%;
+        position: absolute;
+        bottom: 4%; left: 82%;
+        position: fixed;
+        z-index: 9999;
+    }
+    
+    /* mainpage */
+    .background1 {
+        margin: 0 auto;
+        width: 380px;
+        height: 3225px;
+        position: relative;
+        top: 72px;
+        background-image: url(img/mobile/1p.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 100%;
+    
+    }
+    
+    .readmore {
+        width: 20%;
+        position: absolute;
+        top:5.8%;
+        left: 73%;
+    }
+
+    #banner{
+        display: none;
+        position: absolute; 
+        top: 390px; 
+        left: 58%;
+    } 
+    
+    .mainpage_button1 {
+        position: absolute;
+        display: block;
+        margin: 0 auto;
+        top: 40.5%;
+        left: 50%;
+        margin-left: -85.5px;
+        width: 45%;
+    }
+    
+    
+    .mainpage_button2 {
+        position: absolute;
+        display: block;
+        margin: 0 auto;
+        left: 50%;
+        margin-left: -85.5px;
+        top: 93.9%;
+        width: 45%;
+    }
+    
+    
+    
+    footer {
+        width: 100%;
+        height: 70px;
+        background-color: #3C5A36;
+        margin: 0 auto;
+        background-image: url(img/footer/footer.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 150%;
+    }
+
+
+    /* about-us page */
+    .background2 {
+        position: relative;
+        top: 72px;
+        height: 4130px;
+        margin: 0 auto;
+        width: 380px;
+        background-image: url(img/mobile/2p.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 100%;
+    }
+
+    .footer2 {
+        width: 100%;
+        height: 202px;
+        background-image: url(img/footer/footer.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+
+    /* '나만의 에르더마' page */
+        .background3 {
+            height: 2712px;
+            position: relative;
+            top: 72px;
+            margin: 0 auto;
+            width: 380px;
+            background-image: url(img/mobile/myown.png);
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 100%;
+        }
+
+        .myown_button1 {
+            width: 30%;
+            position: absolute;
+            top: 33.4%;
+            left: 15.5%;
+        }
+
+        .myown_button2 {
+            width: 30%;
+            position: absolute;
+            top: 53.6%;
+            left: 55.2%;
+        }
+
+        .myown_button3 {
+            width: 30%;
+            position: absolute;
+            top: 85.13%;
+            left: 15.5%;
+        }
+
+        .footer3 {
+            width: 100%;
+            height: 202px;
+            background-image: url(img/footer/footer.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        
+        /* drop the oil page */
+
+        .background4 {
+            height: 668px;
+            position: relative;
+            top: 72px;
+            margin: 0 auto;
+            width: 380px;
+            background-image: url(img/mobile/dropthe.png);
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 100%;
+        }
+
+        .dropthe_button1 {
+            position: absolute;
+            top: 435px;
+            left: 50%;
+            margin-left: -85.5px;
+            width: 45%;
+            
+        }
+
+        .footer4 {
+        width: 100%;
+            height: 202px;
+            background-image: url(img/footer/footer.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+
+
+        /* find your beauty page */
+
+        .background5 {
+            height: 3514px;
+            position: relative;
+            top: 72px;
+            margin: 0 auto;
+            width: 380px;
+            background-image: url(img/mobile/findyour.png);
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 100%;
+        }
+        
+        .findyour_button1 {
+            position: absolute;
+            top: 350px;
+            left: 50%;
+            width: 45%;
+            margin-left: -85.5px;        
+        }
+        
+        .findyour_button2 {
+            position: absolute;
+            top: 3322px;
+            left: 50%;
+            margin-left: -85.5px;
+            width: 45%;
+        
+        }
+        
+        #video{
+            width: 100%;
+            position: absolute; 
+            top: 2763px; 
+            left: 0%;
+        }
+        
+        .scroll-down {
+            position: absolute;
+            top: 384px;
+            left: 50%;
+            z-index: 99;
+            width: 70px;
+            margin-left: -35px;
+            height: 70px;
+        }
+        
+        .footer5 {
+            width: 100%;
+            height: 202px;
+            background-image: url(img/footer/footer.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+
+
+        /* product page */
+        .background6 {
+            height: 2380px;
+            position: relative;
+            top: 72px;
+            margin: 0 auto;
+            width: 380px;
+            background-image: url(img/mobile/product.png);
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 100%;
+        }
+
+
+
+        .background6 ul {
+            width: 90%;
+            height: 420px;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        #bokhab{
+            top: 545px;
+
+        }
+
+        #dry{
+            top: 683px;
+        }
+
+        #oilskin{
+            top: 802px;
+        }
+
+        .background6 li {
+            width: 50%;
+            position: relative;
+            display: block;
+            float: left;
+        }
+
+        .footer6 {
+            width: 100%;
+            height: 202px;
+            background-image: url(img/footer/footer.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+
+                /* oil page */
+.oil-1 {
+    width: 380px;
+    height: 2548px;
+    position: relative;
+    top: 72px;
+    margin: 0 auto;
+    background-image: url(img/mobile/oilpage/1.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+
+.oil-2 {
+    width: 380px;
+    height: 2548px;
+    position: relative;
+    top: 72px;
+    margin: 0 auto;
+    background-image: url(img/mobile/oilpage/2.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+
+.oil-3 {
+    width: 380px;
+    height: 2548px;
+    position: relative;
+    top: 72px;
+    margin: 0 auto;
+    background-image: url(img/mobile/oilpage/3.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+.oil-4 {
+    width: 380px;
+    height: 2548px;
+    position: relative;
+    top: 72px;
+    margin: 0 auto;
+    background-image: url(img/mobile/oilpage/4.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+.oil-5 {
+    width: 380px;
+    height: 2548px;
+    position: relative;
+    top: 72px;
+    margin: 0 auto;
+    background-image: url(img/mobile/oilpage/5.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+
+.oil-6 {
+    width: 380px;
+    height: 2548px;
+    position: relative;
+    top: 72px;
+    margin: 0 auto;
+    background-image: url(img/mobile/oilpage/6.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+
+.oil-7 {
+    width: 380px;
+    height: 2548px;
+    position: relative;
+    top: 72px;
+    margin: 0 auto;
+    background-image: url(img/mobile/oilpage/7.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+
+.oil-8 {
+    width: 380px;
+    height: 2548px;
+    position: relative;
+    top: 72px;
+    margin: 0 auto;
+    background-image: url(img/mobile/oilpage/8.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+
+.oil-9 {
+    width: 380px;
+    height: 2548px;
+    position: relative;
+    top: 72px;
+    margin: 0 auto;
+    background-image: url(img/mobile/oilpage/9.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+
+.oil-10 {
+    width: 380px;
+    height: 2548px;
+    position: relative;
+    top: 72px;
+    margin: 0 auto;
+    background-image: url(img/mobile/oilpage/10.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+
+.oil-11 {
+    width: 380px;
+    height: 2548px;
+    position: relative;
+    top: 72px;
+    margin: 0 auto;
+    background-image: url(img/mobile/oilpage/11.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+
+.oil-12 {
+    width: 380px;
+    height: 2548px;
+    position: relative;
+    top: 72px;
+    margin: 0 auto;
+    background-image: url(img/mobile/oilpage/12.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+
+.footer7 {
+    width: 100%;
+    height: 202px;
+    background-image: url(img/footer/footer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

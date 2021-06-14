@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERDERMA</title>
+    <link rel="stylesheet" href="backgroundCSS.css" type="text/css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body onload="clk()">
+    <div class="bgimg2">
+        <div class="container">
+            <div class="choice_container_con">
+                <img src="./img/7p/bar.png" style="display: block; margin: auto; align-items: center;">
+                <img src="./img/7p/ques.png" class ="ques">
+                <div class="box">
+                    <!-- <a href="8p.html"> -->
+                    <div class="box_img_cap">
+                        <img src="./img/7p/yes1.png" class="yn" onclick="this.src='./img/7p/yes2.png'; ageChange(3)" >
+
+                        <img src="./img/7p/no1.png" class="yn" onclick="this.src='./img/7p/no2.png'; ageChange(-1)">
+                    </div>
+                    <!-- </a> -->
+                </div>
+            </div>
+            <a href="1p.html">
+                <img src="./img/2p/close.png" class="close">
+            </a>
+            <a href="#"><img src="./img/2p/back.png" class ="goback" onclick="goBack()"></a>
+        </div>
+        <img src="./img/7p/num.png" class="num">
+    </div>
+
+  </body>
+
+  </html>

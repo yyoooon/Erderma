@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>18p</title>
+    <link rel="stylesheet" href="backgroundCSS.css" type="text/css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="script.js"></script>
+    <script>
+        window.onload = function() {
+            var click1 = document.getElementById('click1');
+            var click2 = document.getElementById('click2');
+            var d1 = document.getElementById('d1');
+            var d2 = document.getElementById('d2');
+
+            click1.onclick = function() {
+                d1.style.display = 'none';
+                d2.style.display = 'block';
+            }
+
+            click2.onclick = function() {
+                d1.style.display = 'block';
+                d2.style.display = 'none';
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="bgimg2">
+        <div class="container">
+            <div class="choice_container_con" id="container_feel">
+                <img src="./img/18-19p/bar.png" style="display: block; margin: auto; align-items: center;">
+                <img src="./img/18-19p/ques.png" id="feel_ques" class ="ques" >
+
+                <div class="box" id="d1">
+                    <div class="box_img_cap2 clearfix">
+                        <img src="./img/18-19p/a.png" class="yn" onclick="go_jump(1)" style="margin-right: 0%;">
+                        <img src="./img/18-19p/b.png" class="yn"  onclick="go_jump(2)">
+                        <img src="./img/18-19p/c.png" class="yn" onclick="go_jump(3)">
+                        <img src="./img/18-19p/toRight.png" id="click1" class="yn">
+                    </div>
+                    
+                </div>
+                <div class="box" id="d2">
+                    <div class="box_img_cap2 clearfix">
+                        <img src="./img/18-19p/toleft.png" id="click2" class="yn">
+                        <img src="./img/18-19p/d.png" class="yn" onclick="go_jump(4)" style="margin-right: 0%;">
+                        <img src="./img/18-19p/e.png" class="yn"  onclick="go_jump(5)">
+                        <img src="./img/18-19p/f.png" class="yn"  onclick="go_jump(6)">
+                    </div>
+
+                </div>
+            </div>
+
+            <a href="1p.html">
+                <img src="./img/2p/close.png" class="close">
+            </a>
+            <a href="#"><img src="./img/2p/back.png" class ="goback" onclick="goBack()"></a>
+            <img src="./img/18-19p/num.png" class="num">
+        </div>
+
+
+            </div>
+
+</body>
+</html>
