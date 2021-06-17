@@ -36,8 +36,8 @@ https://www.erderma-beauty.com/
 
   - 오일 추천을 위한 피부 타입 테스트
   - 스마트미러 마사지 가이드 간접 체험(음성인식 버전/클릭 버전)
-<img width="40%" src="https://user-images.githubusercontent.com/81611808/122352688-4f6e5780-cf8a-11eb-9931-e2f4c8a995a2.png"> 
-<img width="40%" src="https://user-images.githubusercontent.com/81611808/122352664-48dfe000-cf8a-11eb-91c3-4968292ec22b.png">
+<img width="50%" src="https://user-images.githubusercontent.com/81611808/122352688-4f6e5780-cf8a-11eb-9931-e2f4c8a995a2.png"> 
+<img width="50%" src="https://user-images.githubusercontent.com/81611808/122352664-48dfe000-cf8a-11eb-91c3-4968292ec22b.png">
 </br>
 
 - **product** : 에르더마 오일 소개
