@@ -24,15 +24,15 @@ https://www.erderma-beauty.com/
 
 ## Index
 
-- **main** : 서비스 소개
+**main** : 서비스 소개
 <img width="60%" src="https://user-images.githubusercontent.com/81611808/122353586-27332880-cf8b-11eb-8e29-93c9a0fc7978.png">
 </br>
 
-- **brand** : 설립 배경과 브랜드 가치 설명
+**brand** : 설립 배경과 브랜드 가치 설명
 <img width="60%" src="https://user-images.githubusercontent.com/81611808/122353568-239fa180-cf8b-11eb-926e-6a538274e19c.png">
 </br>
 
-- **나만의 에르더마** : 서비스를 체험해 볼 수 있는 페이지
+**나만의 에르더마** : 서비스를 체험해 볼 수 있는 페이지
 
   - 오일 추천을 위한 피부 타입 테스트
   - 스마트미러 마사지 가이드 간접 체험(음성인식 버전/클릭 버전)
@@ -40,7 +40,7 @@ https://www.erderma-beauty.com/
 <img width="60%" src="https://user-images.githubusercontent.com/81611808/122352664-48dfe000-cf8a-11eb-91c3-4968292ec22b.png">
 </br>
 
-- **product** : 에르더마 오일 소개
+**product** : 에르더마 오일 소개
 <img width="60%" src="https://user-images.githubusercontent.com/81611808/122353516-18e50c80-cf8b-11eb-9cf6-0544f19ff87a.png">
 </br>
 
